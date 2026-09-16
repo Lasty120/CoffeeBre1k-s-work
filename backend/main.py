@@ -31,7 +31,6 @@ app = FastAPI(
     openapi_url="/openapi.json",
     description=(
         "UAV mission planning and route optimisation service. "
-        "Phase 1: schema contract and stub endpoint. "
         "See /docs for the interactive API explorer."
     ),
 )
